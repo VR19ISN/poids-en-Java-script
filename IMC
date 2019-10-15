@@ -1,0 +1,16 @@
+<htmL>
+<HEAD>
+<meta http-equiv="content-type" content="text/html:charset=utf-8"/>
+</head>
+<body>
+<script language="javascript">
+paragraphe=document.createElement("imc")
+document.body.appendChild(paragraphe)
+var t=prompt("Ecrivez votre taille",'tapez votre nombre ici');
+var p=prompt("Ecrivez votre poid",'tapez votre nombre ici');
+imc=p/(t*t)
+texte=document.createTextNode(imc)
+paragraphe.appendChild(texte)
+</script>
+</body>
+</html>
